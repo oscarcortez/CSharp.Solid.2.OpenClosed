@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharp.Solid.ModelsBad
 {
-    public class Circle
+    public class CircleBad
     {
         public double Radius { get; set; }
     }

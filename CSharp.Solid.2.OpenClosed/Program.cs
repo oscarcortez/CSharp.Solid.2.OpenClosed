@@ -7,17 +7,17 @@ namespace CSharp.Solid.OpenClosed
     {
         static void Main(string[] args)
         {
-            Circle circle = new()
+            CircleBad circle = new()
             { 
                 Radius = 10 
             };
-            Rectangle rectangle = new()
+            RectangleBad rectangle = new()
             { 
                 Height = 5,
                 Width = 7
             };
 
-            CombinedAreaCalculator cac = new();
+            CombinedAreaCalculatorBad cac = new();
             object[] shapes = new object[3];
             shapes[0] = circle;
             shapes[1] = rectangle;

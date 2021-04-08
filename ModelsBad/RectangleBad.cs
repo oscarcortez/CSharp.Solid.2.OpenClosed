@@ -2,7 +2,7 @@
 
 namespace CSharp.Solid.ModelsBad
 {
-    public class Rectangle
+    public class RectangleBad
     {
         public double Width { get; set; }
         public double Height { get; set; }

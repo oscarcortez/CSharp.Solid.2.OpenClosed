@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace CSharp.Solid.ModelsBad
 {
-    public class CombinedAreaCalculator
+    public class CombinedAreaCalculatorBad
     {
         public double Area(object[] shapes)
         {
             double area = 0;
             foreach (var shape in shapes)
             {
-                if (shape is Rectangle)
+                if (shape is RectangleBad)
                 {
-                    Rectangle rectangle = (Rectangle)shape;
+                    RectangleBad rectangle = (RectangleBad)shape;
                     area += rectangle.Width * rectangle.Height;
                 }
-                if (shape is Circle)
+                if (shape is CircleBad)
                 {
-                    Circle circle = (Circle)shape;
+                    CircleBad circle = (CircleBad)shape;
                     area += (circle.Radius * circle.Radius) * Math.PI;
                 }
             }
