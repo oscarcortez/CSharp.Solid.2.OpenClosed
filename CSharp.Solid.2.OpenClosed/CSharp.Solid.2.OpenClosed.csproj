@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Csharp.Solid.OpenClosed.ModelsGood\Csharp.Solid.OpenClosed.ModelsGood.csproj" />
     <ProjectReference Include="..\ModelsBad\CSharp.Solid.OpenClosed.ModelsBad.csproj" />
   </ItemGroup>
 

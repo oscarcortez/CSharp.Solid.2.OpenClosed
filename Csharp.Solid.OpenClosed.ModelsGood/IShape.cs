@@ -2,7 +2,8 @@
 
 namespace Csharp.Solid.OpenClosed.ModelsGood
 {
-    public class Class1
+    public interface IShape
     {
+        double Area();
     }
 }
