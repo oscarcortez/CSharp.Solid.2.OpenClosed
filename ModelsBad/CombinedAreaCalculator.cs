@@ -18,6 +18,11 @@ namespace ModelsBad
                     Rectangle rectangle = (Rectangle)shape;
                     area += rectangle.Width * rectangle.Height;
                 }
+                if (shape is Circle)
+                {
+                    Circle circle = (Circle)shape;
+                    area += (circle.Radius * circle.Radius) * Math.PI;
+                }
             }
             return area;
         }
