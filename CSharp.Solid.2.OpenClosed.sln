@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Solid.2.OpenClosed", "CSharp.Solid.2.OpenClosed\CSharp.Solid.2.OpenClosed.csproj", "{7CD97B9C-EA20-46CF-B1F1-7543AA0456DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelsBad", "ModelsBad\ModelsBad.csproj", "{46CDD8E4-65CF-4391-B701-272E8DC93129}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Solid.ModelsBad", "ModelsBad\CSharp.Solid.ModelsBad.csproj", "{46CDD8E4-65CF-4391-B701-272E8DC93129}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

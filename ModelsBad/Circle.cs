@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ModelsBad
+namespace CSharp.Solid.ModelsBad
 {
     public class Circle
     {

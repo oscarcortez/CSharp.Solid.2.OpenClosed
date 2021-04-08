@@ -6,4 +6,8 @@
     <RootNamespace>CSharp.Solid._2.OpenClosed</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ModelsBad\CSharp.Solid.ModelsBad.csproj" />
+  </ItemGroup>
+
 </Project>

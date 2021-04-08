@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ModelsBad
+namespace CSharp.Solid.ModelsBad
 {
     public class Rectangle
     {
