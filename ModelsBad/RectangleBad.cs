@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSharp.Solid.ModelsBad
+namespace CSharp.Solid.OpenClosed.ModelsBad
 {
     public class RectangleBad
     {

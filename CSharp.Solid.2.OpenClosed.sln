@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Solid.2.OpenClosed", "CSharp.Solid.2.OpenClosed\CSharp.Solid.2.OpenClosed.csproj", "{7CD97B9C-EA20-46CF-B1F1-7543AA0456DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Solid.ModelsBad", "ModelsBad\CSharp.Solid.ModelsBad.csproj", "{46CDD8E4-65CF-4391-B701-272E8DC93129}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Solid.OpenClosed.ModelsBad", "ModelsBad\CSharp.Solid.OpenClosed.ModelsBad.csproj", "{46CDD8E4-65CF-4391-B701-272E8DC93129}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp.Solid.OpenClosed.ModelsGood", "Csharp.Solid.OpenClosed.ModelsGood\Csharp.Solid.OpenClosed.ModelsGood.csproj", "{88FDA61E-D195-4143-B3F7-9AC4973C76E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{46CDD8E4-65CF-4391-B701-272E8DC93129}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46CDD8E4-65CF-4391-B701-272E8DC93129}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46CDD8E4-65CF-4391-B701-272E8DC93129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88FDA61E-D195-4143-B3F7-9AC4973C76E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FDA61E-D195-4143-B3F7-9AC4973C76E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FDA61E-D195-4143-B3F7-9AC4973C76E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FDA61E-D195-4143-B3F7-9AC4973C76E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

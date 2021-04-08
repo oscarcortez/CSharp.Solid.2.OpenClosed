@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharp.Solid.ModelsBad
+namespace CSharp.Solid.OpenClosed.ModelsBad
 {
     public class CombinedAreaCalculatorBad
     {

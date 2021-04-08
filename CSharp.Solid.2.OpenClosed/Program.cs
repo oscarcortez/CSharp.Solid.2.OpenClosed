@@ -1,4 +1,4 @@
-﻿using CSharp.Solid.ModelsBad;
+﻿using CSharp.Solid.OpenClosed.ModelsBad;
 using System;
 
 namespace CSharp.Solid.OpenClosed
